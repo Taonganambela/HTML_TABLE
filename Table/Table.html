@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Table</title>
+  </head>
+  <body>
+    <div class="">
+      <div class="text-center font-bold ml-20 mb-6 mt-6 rounded-md border-2  border-purple-600 w-3/5 p-2">
+        Completed by requesting engineer / Organization
+      </div>
+    </div>
+    <div class="pl-20 pr-20 text-center display-block">
+      <table class="rounded-lg overflow-hidden">
+        <tr class="border border-purple-600">
+          <th class="border-2 border-purple-600 display-block">Subject</th>
+          <th class="w-3/6 border-2 border-purple-600" colspan="6"></th>
+        </tr>
+
+        <tr>
+          <td
+            class="font-semibold border-2 border-purple-600 display-block h-24 w-1/3"
+            rowspan="2"
+          >
+            Request Engineer / Organization
+          </td>
+          <td
+            class="font-semibold border-2 border-purple-600 w-1/3"
+            colspan="3"
+          >
+            Name(s)
+          </td>
+          <td
+            class="font-semibold border-2 border-purple-600 w-1/3"
+            colspan="3"
+          >
+            Section
+          </td>
+        </tr>
+
+        <tr>
+          <td class="border-2 border-purple-600 h-16" colspan="3"></td>
+          <td class="border-2 border-purple-600" colspan="3"></td>
+        </tr>
+
+        <tr>
+          <td
+            class="font-semibold h-24 border-2 border-purple-600 h-16 display-block"
+          >
+            Operation is in response to
+          </td>
+          <td class="border-2 border-purple-600" colspan="6"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600 h-16">
+            The operation provides the following solution to the known issues
+          </td>
+          <td class="border-2 border-purple-600" colspan="6"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600" rowspan="2">
+            System server(s) to be affected
+          </td>
+          <td
+            class="font-semibold border-2 border-purple-600 w-1/5"
+            colspan="2"
+          >
+            Name
+          </td>
+          <td
+            class="font-semibold border-2 border-purple-600 w-1/5"
+            colspan="2"
+          >
+            Description
+          </td>
+          <td
+            class="font-semibold border-2 border-purple-600 w-1/5"
+            colspan="2"
+          >
+            Current Status
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-purple-600 h-16" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600" rowspan="2">
+            Affected systems after operation
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            Name
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            Description
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            Post Status
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-purple-600 h-16" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+        </tr>
+
+        <tr>
+          <td class="h-24 border-2 border-purple-600 font-semibold" rowspan="2">
+            Proposed date & time of operation
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            From
+          </td>
+          <td class="border-2 border-purple-600" colspan="4"></td>
+        </tr>
+        <tr>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            to
+          </td>
+          <td class="border-2 border-purple-600" colspan="4"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600" rowspan="2">
+            Is any service system interruption expected?
+          </td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+          <td class="border-2 border-purple-600 font-semibold" colspan="4">
+            If so, Put in detail affected system(s)
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-purple-600 h-20" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="4"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600" rowspan="2">
+            Planned outage times and durations
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            From
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            To
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="2">
+            Outage Period
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-purple-600 h-16" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+          <td class="border-2 border-purple-600" colspan="2"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600 h-16">
+            Preparatory work needed before operation
+          </td>
+          <td class="border-2 border-purple-600" colspan="6"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600 h-16">
+            Test to be carried out to verify correct operation(Also include the
+            planned rollback procedures here)
+          </td>
+          <td class="border-2 border-purple-600" colspan="6"></td>
+        </tr>
+
+        <tr>
+          <td class="font-semibold h-24 border-2 border-purple-600" rowspan="2">
+            Onsite key Staff / work supervisors from affected sections
+          </td>
+          <td class="font-semibold border-2 border-purple-600" colspan="6">
+            Name
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-purple-600 h-20" colspan="6"></td>
+        </tr>
+
+        <tr class="">
+          <td class="font-semibold h-24 border-2 border-purple-600">
+            Comments :
+          </td>
+          <td class="border-2 border-purple-600" colspan="6"></td>
+        </tr>
+      </table>
+           
+    </div>
+    <div class="pl-20">
+      <button class="bg-purple-600 text-white font-bold  mb-6 mt-6 rounded-md border-2 border-purple-600 w-1/2 p-1">Download supported documents <button>
+    </div>   
+  </body>
+</html>
